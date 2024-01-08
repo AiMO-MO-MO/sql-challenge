@@ -4,11 +4,17 @@ It’s been two weeks since you were hired as a new data engineer at Pewlett Hac
 
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
 
+# Data Tables
+departments
+dept_emp
+dept_manager
+employees
+slaries
+titles
 
-
-# Data Modeling (10 points)
+# Data Modeling 
 Entity Relationship Diagram is included or table schemas provided for all tables 
-# Data Engineering (70 points)
+# Data Engineering 
 All required columns are defined for each table 
 Columns are set to the correct data type 
 Primary Keys set for each table 
@@ -16,7 +22,7 @@ Correctly references related tables
 Tables are correctly related using Foreign Keys 
 Correctly uses NOT NULL condition on necessary columns 
 Accurately defines value length for columns
-# Data Analysis (20 points)
+# Data Analysis 
 List the employee number, last name, first name, sex, and salary of each employee (2 points)
 List the first name, last name, and hire date for the employees who were hired in 1986 (2 points)
 List the manager of each department along with their department number, department name, employee number, last name, and first name (2 points)
